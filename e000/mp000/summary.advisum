@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_MAP" >
+
+  <site filename=""
+        line_no="0"
+        label="loop_site_19" 
+        loop_name="main" 
+        is_vectorized="-1">
+    <strides unit="10"
+             const="0"
+             variable="0" />
+  </site>
+
+</IntelParallelAdvisorSummary >

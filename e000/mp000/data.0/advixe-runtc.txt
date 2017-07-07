@@ -1,0 +1,36 @@
+
+=== Start: [2017/07/06 18:20:16] === 
+Analysis started...
+Result file: /home/AstroVPK/Documents/sfComp/e000/mp000/mp000.advixe 
+Found target process /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp (PID = 25371). Analysis started... 
+Loaded module: /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp. 
+Loaded module: /lib64/ld-linux-x86-64.so.2. 
+Loaded module: [vdso]. 
+Loaded module: /lib64/libm.so.6. 
+Loaded module: /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so. 
+Loaded module: /lib64/libmemkind.so.0. 
+Loaded module: /lib64/libstdc++.so.6. 
+Loaded module: /lib64/libgcc_s.so.1. 
+Loaded module: /lib64/libpthread.so.0. 
+Loaded module: /lib64/libc.so.6. 
+Loaded module: /lib64/libdl.so.2. 
+Loaded module: /lib64/libnuma.so.1. 
+Loaded module: /opt/intel/advisor_2017.1.3.510716/lib64/runtime/libittnotify.so. 
+Unloaded module: /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp. 
+Unloaded module: /lib64/ld-linux-x86-64.so.2. 
+Unloaded module: [vdso]. 
+Unloaded module: /lib64/libm.so.6. 
+Unloaded module: /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so. 
+Unloaded module: /lib64/libmemkind.so.0. 
+Unloaded module: /lib64/libstdc++.so.6. 
+Unloaded module: /lib64/libgcc_s.so.1. 
+Unloaded module: /lib64/libpthread.so.0. 
+Unloaded module: /lib64/libc.so.6. 
+Unloaded module: /lib64/libdl.so.2. 
+Unloaded module: /lib64/libnuma.so.1. 
+Unloaded module: /opt/intel/advisor_2017.1.3.510716/lib64/runtime/libittnotify.so. 
+Process /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp (PID = 25371) has terminated. 
+Application exit code: 0 
+Result file: /home/AstroVPK/Documents/sfComp/e000/mp000/mp000.advixe 
+Analysis completed
+=== End: [2017/07/06 18:21:06] === 
