@@ -2,13 +2,13 @@
 #    rowid |    parent |       rva | loop | system |                                function | binary | instance rva
          1 |        -1 |      4608 |    0 |      0 |                                  _start | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4608
          2 |        -1 |      4648 |    0 |      0 |                                  _start | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4608
-         3 |        43 |    138036 |    1 |      1 |     [Loop@0x21a79 in __libc_start_main] | /lib64/libc.so.6 | 137849
+         3 |        52 |    138036 |    1 |      1 |     [Loop@0x21a79 in __libc_start_main] | /lib64/libc.so.6 | 137849
          4 |         3 |      4943 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
          5 |         4 |    477572 |    0 |      1 |           __kmp_api_omp_get_max_threads | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 477520
-         6 |        46 |    568209 |    0 |      1 |_INTERNAL_25_______src_kmp_runtime_cpp_fa8d4e2e::__kmp_do_middle_initialize | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568172
+         6 |        55 |    568209 |    0 |      1 |_INTERNAL_25_______src_kmp_runtime_cpp_fa8d4e2e::__kmp_do_middle_initialize | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568172
          7 |         6 |    168677 |    0 |      1 |               __kmp_affinity_initialize | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 168592
          8 |         7 |    170463 |    0 |      1 |_INTERNAL_26_______src_kmp_affinity_cpp_4bb3d687::__kmp_aux_affinity_initialize | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 168704
-         9 |        49 |    214591 |    1 |      1 |[Loop at line 1401 in _INTERNAL_26_______src_kmp_affinity_cpp_4bb3d687::__kmp_affinity_create_x2apicid_map] | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 214544
+         9 |        58 |    214591 |    1 |      1 |[Loop at line 1401 in _INTERNAL_26_______src_kmp_affinity_cpp_4bb3d687::__kmp_affinity_create_x2apicid_map] | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 214544
         10 |         9 |    784149 |    0 |      1 |              __kmp_affinity_bind_thread | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 784048
         11 |        10 |    241230 |    0 |      1 |KMPNativeAffinity::Mask::set_system_affinity | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 241152
         12 |        11 |    990249 |    0 |      1 |                                 syscall | /lib64/libc.so.6 | 990224
@@ -16,63 +16,143 @@
         14 |        13 |     36102 |    0 |      1 |                             func@0x8cb0 | /lib64/libmemkind.so.0 | 36016
         15 |        14 |     46227 |    0 |      1 |          memkind_hbw_get_mbind_nodemask | /lib64/libmemkind.so.0 | 46192
         16 |        15 |     52143 |    0 |      1 |                          __pthread_once | /lib64/libpthread.so.0 | 52064
-        17 |        74 |     48178 |    1 |      1 |            [Loop@0xbc00 in func@0xba70] | /lib64/libmemkind.so.0 | 48128
-        18 |        39 |     24697 |    1 |      1 |       [Loop@0x6070 in numa_node_of_cpu] | /lib64/libnuma.so.1 | 24688
+        17 |       154 |     48178 |    1 |      1 |            [Loop@0xbc00 in func@0xba70] | /lib64/libmemkind.so.0 | 48128
+        18 |        48 |     24697 |    1 |      1 |       [Loop@0x6070 in numa_node_of_cpu] | /lib64/libnuma.so.1 | 24688
         19 |        18 |     24006 |    0 |      1 |                       numa_node_to_cpus | /lib64/libnuma.so.1 | 23920
-        20 |        41 |     15998 |    1 |      1 |  [Loop@0x3e68 in numa_bitmask_clearall] | /lib64/libnuma.so.1 | 15976
-        21 |        54 |      5829 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        22 |        54 |      5886 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        23 |        54 |      5872 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        24 |        54 |      5787 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        25 |        54 |      5809 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        26 |        54 |      5866 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        27 |        54 |      5879 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        28 |        54 |      5815 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        29 |        54 |      5822 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        30 |        54 |      5836 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        31 |        54 |      5862 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        32 |        54 |      5893 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        33 |        54 |      5855 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        34 |        54 |      5795 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        35 |        54 |      5776 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        36 |        54 |      5802 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        37 |        54 |      5847 |    1 |      0 |                 [Loop@0x401690 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5776
-        38 |        53 |      5745 |    1 |      0 |                 [Loop@0x40164d in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5709
-        39 |        17 |     24688 |    0 |      1 |                        numa_node_of_cpu | /lib64/libnuma.so.1 | 24640
-        40 |        17 |     24697 |    0 |      1 |                        numa_node_of_cpu | /lib64/libnuma.so.1 | 24640
-        41 |        19 |     15976 |    0 |      1 |                   numa_bitmask_clearall | /lib64/libnuma.so.1 | 15952
-        42 |        19 |     15998 |    0 |      1 |                   numa_bitmask_clearall | /lib64/libnuma.so.1 | 15952
-        43 |         2 |    137849 |    0 |      1 |                       __libc_start_main | /lib64/libc.so.6 | 137792
-        44 |         2 |    138036 |    0 |      1 |                       __libc_start_main | /lib64/libc.so.6 | 137792
-        45 |         5 |    568091 |    0 |      1 |                 __kmp_middle_initialize | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568032
-        46 |        45 |    568172 |    1 |      1 |[Loop at line 6925 in __kmp_middle_initialize] | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568091
-        47 |        45 |    568209 |    1 |      1 |[Loop at line 6925 in __kmp_middle_initialize] | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568091
-        48 |         5 |    568209 |    0 |      1 |                 __kmp_middle_initialize | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568032
-        49 |         8 |    214544 |    0 |      1 |_INTERNAL_26_______src_kmp_affinity_cpp_4bb3d687::__kmp_affinity_create_x2apicid_map | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 212816
-        50 |         8 |    214591 |    0 |      1 |_INTERNAL_26_______src_kmp_affinity_cpp_4bb3d687::__kmp_affinity_create_x2apicid_map | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 212816
-        51 |         3 |      5438 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        52 |        51 |      5625 |    1 |      0 |                 [Loop@0x40153e in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5438
-        53 |        52 |      5709 |    1 |      0 |                 [Loop@0x4015f9 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5625
-        54 |        53 |      5776 |    1 |      0 |                 [Loop@0x40164d in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5709
-        55 |         3 |      5829 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        56 |         3 |      5886 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        57 |         3 |      5872 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        58 |         3 |      5787 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        59 |         3 |      5809 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        60 |         3 |      5866 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        61 |         3 |      5879 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        62 |         3 |      5815 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        63 |         3 |      5822 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        64 |         3 |      5836 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        65 |         3 |      5862 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        66 |         3 |      5893 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        67 |         3 |      5855 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        68 |         3 |      5795 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        69 |         3 |      5776 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        70 |         3 |      5802 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        71 |         3 |      5847 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        72 |         3 |      5745 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
-        73 |        16 |     48080 |    0 |      1 |                             func@0xba70 | /lib64/libmemkind.so.0 | 47728
-        74 |        73 |     48128 |    1 |      1 |            [Loop@0xbbd0 in func@0xba70] | /lib64/libmemkind.so.0 | 48080
-        75 |        16 |     48178 |    0 |      1 |                             func@0xba70 | /lib64/libmemkind.so.0 | 47728
-        76 |        -1 |         0 |    0 |      0 |                [Unknown stack frame(s)] | n/a | 0
+        20 |        50 |     16005 |    1 |      1 |  [Loop@0x3e68 in numa_bitmask_clearall] | /lib64/libnuma.so.1 | 15976
+        21 |        65 |      5918 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        22 |        64 |      5833 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        23 |        65 |      5897 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        24 |        65 |      5855 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        25 |        65 |      5925 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        26 |        65 |      5862 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        27 |        65 |      5911 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        28 |        65 |      5952 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        29 |        65 |      5876 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        30 |        65 |      5941 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        31 |        65 |      5933 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        32 |        65 |      5890 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        33 |        64 |      5810 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        34 |        65 |      5847 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        35 |        65 |      5884 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        36 |        65 |      5869 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        37 |        65 |      5840 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        38 |        65 |      5903 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        39 |        65 |      5945 |    1 |      0 |[Loop at line 549 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5840
+        40 |        64 |      5954 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        41 |        64 |      5817 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        42 |        64 |      5825 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        43 |        64 |      5814 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        44 |        64 |      5961 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        45 |        64 |      5958 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        46 |        64 |      5821 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        47 |       146 |      6313 |    1 |      0 |[Loop at line 559 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 6067
+        48 |        17 |     24688 |    0 |      1 |                        numa_node_of_cpu | /lib64/libnuma.so.1 | 24640
+        49 |        17 |     24697 |    0 |      1 |                        numa_node_of_cpu | /lib64/libnuma.so.1 | 24640
+        50 |        19 |     15976 |    0 |      1 |                   numa_bitmask_clearall | /lib64/libnuma.so.1 | 15952
+        51 |        19 |     16005 |    0 |      1 |                   numa_bitmask_clearall | /lib64/libnuma.so.1 | 15952
+        52 |         2 |    137849 |    0 |      1 |                       __libc_start_main | /lib64/libc.so.6 | 137792
+        53 |         2 |    138036 |    0 |      1 |                       __libc_start_main | /lib64/libc.so.6 | 137792
+        54 |         5 |    568091 |    0 |      1 |                 __kmp_middle_initialize | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568032
+        55 |        54 |    568172 |    1 |      1 |[Loop at line 6925 in __kmp_middle_initialize] | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568091
+        56 |        54 |    568209 |    1 |      1 |[Loop at line 6925 in __kmp_middle_initialize] | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568091
+        57 |         5 |    568209 |    0 |      1 |                 __kmp_middle_initialize | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 568032
+        58 |         8 |    214544 |    0 |      1 |_INTERNAL_26_______src_kmp_affinity_cpp_4bb3d687::__kmp_affinity_create_x2apicid_map | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 212816
+        59 |         8 |    214591 |    0 |      1 |_INTERNAL_26_______src_kmp_affinity_cpp_4bb3d687::__kmp_affinity_create_x2apicid_map | /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/lib/intel64/libiomp5.so | 212816
+        60 |         3 |      5447 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        61 |        60 |      5634 |    1 |      0 |              [Loop at line 741 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5447
+        62 |        61 |      5750 |    1 |      0 |              [Loop at line 747 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5634
+        63 |        62 |      5369 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        64 |        63 |      5810 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        65 |        64 |      5840 |    1 |      0 |[Loop at line 545 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5810
+        66 |        63 |      5918 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        67 |        65 |      5918 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        68 |         3 |      5918 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        69 |        63 |      5833 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        70 |        64 |      5833 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        71 |         3 |      5833 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        72 |        63 |      5897 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        73 |        65 |      5897 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        74 |         3 |      5897 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        75 |        63 |      5855 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        76 |        65 |      5855 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        77 |         3 |      5855 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        78 |        63 |      5925 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        79 |        65 |      5925 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        80 |         3 |      5925 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        81 |        63 |      5862 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        82 |        65 |      5862 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        83 |         3 |      5862 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        84 |        63 |      5911 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        85 |        65 |      5911 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        86 |         3 |      5911 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        87 |        63 |      5952 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        88 |        65 |      5952 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        89 |         3 |      5952 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        90 |        63 |      5876 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        91 |        65 |      5876 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        92 |         3 |      5876 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        93 |        63 |      5941 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        94 |        65 |      5941 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        95 |         3 |      5941 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        96 |        63 |      5933 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+        97 |        65 |      5933 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+        98 |         3 |      5933 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+        99 |        63 |      5890 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       100 |        65 |      5890 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       101 |         3 |      5890 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       102 |        63 |      5810 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       103 |        64 |      5810 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       104 |         3 |      5810 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       105 |        63 |      5847 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       106 |        65 |      5847 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       107 |         3 |      5847 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       108 |        63 |      5884 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       109 |        65 |      5884 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       110 |         3 |      5884 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       111 |        63 |      5869 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       112 |        65 |      5869 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       113 |         3 |      5869 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       114 |        63 |      5840 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       115 |        65 |      5840 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       116 |         3 |      5840 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       117 |        63 |      5903 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       118 |        65 |      5903 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       119 |         3 |      5903 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       120 |        63 |      5945 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       121 |        65 |      5945 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       122 |         3 |      5945 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       123 |        63 |      5954 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       124 |        64 |      5954 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       125 |         3 |      5954 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       126 |        63 |      5817 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       127 |        64 |      5817 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       128 |         3 |      5817 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       129 |        63 |      5825 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       130 |        64 |      5825 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       131 |         3 |      5825 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       132 |        63 |      5814 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       133 |        64 |      5814 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       134 |         3 |      5814 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       135 |        63 |      5961 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       136 |        64 |      5961 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       137 |         3 |      5961 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       138 |        63 |      5958 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       139 |        64 |      5958 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       140 |         3 |      5958 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       141 |        63 |      5821 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       142 |        64 |      5821 |    1 |      0 |              [Loop at line 773 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5750
+       143 |         3 |      5821 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       144 |        61 |      5369 |    1 |      0 |              [Loop at line 747 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5634
+       145 |       144 |      6067 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       146 |       145 |      6313 |    1 |      0 |[Loop at line 559 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 6067
+       147 |       144 |      6313 |    0 |      0 |                   SF_compute_oblkio_vec | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5369
+       148 |       146 |      6313 |    1 |      0 |              [Loop at line 747 in main] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 5634
+       149 |         3 |      6313 |    0 |      0 |                                    main | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 4848
+       150 |       146 |      6313 |    1 |      0 |[Loop at line 559 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 6067
+       151 |       146 |      6068 |    1 |      0 |[Loop at line 559 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 6067
+       152 |       146 |      6431 |    1 |      0 |[Loop at line 559 in SF_compute_oblkio_vec] | /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp | 6430
+       153 |        16 |     48080 |    0 |      1 |                             func@0xba70 | /lib64/libmemkind.so.0 | 47728
+       154 |       153 |     48128 |    1 |      1 |            [Loop@0xbbd0 in func@0xba70] | /lib64/libmemkind.so.0 | 48080
+       155 |        16 |     48178 |    0 |      1 |                             func@0xba70 | /lib64/libmemkind.so.0 | 47728
+       156 |        -1 |         0 |    0 |      0 |                [Unknown stack frame(s)] | n/a | 0

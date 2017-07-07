@@ -1,8 +1,8 @@
 
-=== Start: [2017/07/06 18:20:16] === 
+=== Start: [2017/07/06 18:32:37] === 
 Analysis started...
 Result file: /home/AstroVPK/Documents/sfComp/e000/mp000/mp000.advixe 
-Found target process /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp (PID = 25371). Analysis started... 
+Found target process /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp (PID = 26735). Analysis started... 
 Loaded module: /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp. 
 Loaded module: /lib64/ld-linux-x86-64.so.2. 
 Loaded module: [vdso]. 
@@ -16,6 +16,7 @@ Loaded module: /lib64/libc.so.6.
 Loaded module: /lib64/libdl.so.2. 
 Loaded module: /lib64/libnuma.so.1. 
 Loaded module: /opt/intel/advisor_2017.1.3.510716/lib64/runtime/libittnotify.so. 
+Warning: Warning: Site loop_site_20 has only 0 iterations which is not sufficient to detect stride information. A site should have at least 3 iterations for analysis.
 Unloaded module: /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp. 
 Unloaded module: /lib64/ld-linux-x86-64.so.2. 
 Unloaded module: [vdso]. 
@@ -29,8 +30,8 @@ Unloaded module: /lib64/libc.so.6.
 Unloaded module: /lib64/libdl.so.2. 
 Unloaded module: /lib64/libnuma.so.1. 
 Unloaded module: /opt/intel/advisor_2017.1.3.510716/lib64/runtime/libittnotify.so. 
-Process /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp (PID = 25371) has terminated. 
+Process /home/AstroVPK/code/intelShootout/c++/sfComp/sfComp (PID = 26735) has terminated. 
 Application exit code: 0 
 Result file: /home/AstroVPK/Documents/sfComp/e000/mp000/mp000.advixe 
 Analysis completed
-=== End: [2017/07/06 18:21:06] === 
+=== End: [2017/07/06 18:33:49] === 
