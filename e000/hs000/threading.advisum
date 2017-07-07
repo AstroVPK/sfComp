@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/AstroVPK/code/intelShootout/c++/sfComp/sfComp.cc"
+           line_no="545"
+           routine="SF_compute_oblkio_vec"
+           is_vectorized="0"
+           self_time="2.617999E+01"
+           total_time="2.617999E+01"
+           trip_counts="2145"
+           func_instance="20"
+           priority="0"/>
+  <hotspot filename="/home/AstroVPK/code/intelShootout/c++/sfComp/sfComp.cc"
+           line_no="773"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="2.617999E+01"
+           trip_counts="512"
+           func_instance="22"
+           priority="0"/>
+  <hotspot filename="/home/AstroVPK/code/intelShootout/c++/sfComp/sfComp.cc"
+           line_no="747"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="2.617999E+01"
+           trip_counts="100"
+           func_instance="23"
+           priority="0"/>
+  <hotspot filename="/home/AstroVPK/code/intelShootout/c++/sfComp/sfComp.cc"
+           line_no="741"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="2.619999E+01"
+           trip_counts="10"
+           func_instance="25"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

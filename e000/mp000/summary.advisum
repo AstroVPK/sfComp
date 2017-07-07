@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_MAP" >
+
+  <site filename="/home/AstroVPK/code/intelShootout/c++/sfComp/sfComp.cc"
+        line_no="742"
+        label="loop_site_25" 
+        loop_name="main" 
+        is_vectorized="-1">
+    <strides unit="0"
+             const="0"
+             variable="0" />
+  </site>
+
+  <site filename="/home/AstroVPK/code/intelShootout/c++/sfComp/sfComp.cc"
+        line_no="748"
+        label="loop_site_23" 
+        loop_name="main" 
+        is_vectorized="-1">
+    <strides unit="0"
+             const="4"
+             variable="0" />
+  </site>
+
+  <site filename="/home/AstroVPK/code/intelShootout/c++/sfComp/sfComp.cc"
+        line_no="552"
+        label="loop_site_22" 
+        loop_name="SF_compute_oblkio_vec" 
+        is_vectorized="-1">
+    <strides unit="4"
+             const="0"
+             variable="0" />
+  </site>
+
+  <site filename="/home/AstroVPK/code/intelShootout/c++/sfComp/sfComp.cc"
+        line_no="550"
+        label="loop_site_20" 
+        loop_name="SF_compute_oblkio_vec" 
+        is_vectorized="-1">
+    <strides unit="1"
+             const="0"
+             variable="0" />
+  </site>
+
+</IntelParallelAdvisorSummary >
